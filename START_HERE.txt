@@ -1,0 +1,188 @@
+🚀 START HERE - EMPIEZA AQUÍ
+
+┌─────────────────────────────────────────────────────────┐
+│          CATÁLOGO DE SISTEMAS HyS - REACT + VITE        │
+│                   Guía de Instalación                   │
+└─────────────────────────────────────────────────────────┘
+
+
+👉 LOS 3 PASOS MÁS IMPORTANTES:
+
+1. Instala Node.js → https://nodejs.org/ (versión LTS)
+
+2. Lee el archivo → QUICK_START.md (solo 5 minutos)
+
+3. Sigue los pasos → npm install → npm run dev
+
+
+═══════════════════════════════════════════════════════════
+
+📋 ARCHIVOS QUE NECESITAS:
+
+Estos 8 archivos van en la RAÍZ de tu proyecto (carpeta principal):
+
+✅ index.html
+✅ package.json (NO EDITES)
+✅ vite.config.js (NO EDITES)
+✅ .gitignore
+✅ README.md
+✅ QUICK_START.md ← LEE ESTO PRIMERO
+✅ ESTRUCTURA.txt
+✅ ARCHIVOS_INCLUIDOS.txt
+
+Estos 2 archivos van DENTRO de la carpeta "src/":
+
+✅ main.jsx (renombra: src-main.jsx → main.jsx)
+✅ App.jsx (renombra: src-App.jsx → App.jsx) ← EDITA ESTO
+
+
+═══════════════════════════════════════════════════════════
+
+📁 ESTRUCTURA FINAL:
+
+catalogo-hys/
+├── src/
+│   ├── main.jsx       (renombrado)
+│   └── App.jsx        (renombrado, editable)
+├── index.html
+├── package.json
+├── vite.config.js
+├── .gitignore
+├── README.md
+├── QUICK_START.md     ← EMPIEZA AQUÍ
+├── ESTRUCTURA.txt
+└── ARCHIVOS_INCLUIDOS.txt
+
+
+═══════════════════════════════════════════════════════════
+
+⚡ PROCESO RÁPIDO (5 minutos):
+
+1. Descarga Node.js → https://nodejs.org/
+   Instala (solo siguiente, siguiente, siguiente)
+
+2. Crea carpeta "catalogo-hys"
+
+3. Crea subcarpeta "src" dentro de "catalogo-hys"
+
+4. Copia TODOS los archivos en la raíz de "catalogo-hys"
+
+5. Mueve estos archivos DENTRO de carpeta "src/":
+   - src-main.jsx → renombra a → main.jsx
+   - src-App.jsx → renombra a → App.jsx
+
+6. Abre terminal en "catalogo-hys" y ejecuta:
+   npm install
+   
+7. Cuando termine (espera 30-60 segundos), ejecuta:
+   npm run dev
+
+8. Se abrirá automáticamente en http://localhost:3000
+
+9. ¡Tu catálogo está corriendo! 🎉
+
+
+═══════════════════════════════════════════════════════════
+
+🎨 PARA EDITAR TUS PRODUCTOS:
+
+Abre: src/App.jsx
+
+Busca: const products = [
+
+Modifica:
+- title → Nombre del producto
+- description → Descripción corta
+- fullDescription → Descripción larga
+- url → Link del producto
+- mockupGradient → Cambiar colores
+- icon → Cambiar emoji
+
+
+═══════════════════════════════════════════════════════════
+
+📖 DOCUMENTACIÓN:
+
+QUICK_START.md     → Instrucciones paso a paso (5 min)
+README.md          → Documentación completa
+ESTRUCTURA.txt     → Explicación de carpetas
+ARCHIVOS_INCLUIDOS → Checklist de archivos
+
+
+═══════════════════════════════════════════════════════════
+
+🆘 ERRORES COMUNES:
+
+"node_modules not found"
+→ Ejecuta: npm install
+
+"port 3000 already in use"
+→ Déjalo, Vite usará otro puerto automáticamente
+
+"Command not found: npm"
+→ Reinstala Node.js desde nodejs.org
+
+"Cambios no se ven"
+→ Recarga el navegador (F5)
+
+
+═══════════════════════════════════════════════════════════
+
+💻 COMANDOS PRINCIPALES:
+
+npm install      → Instala dependencias (UNA VEZ)
+npm run dev      → Inicia servidor local
+npm run build    → Compila para producción
+npm run preview  → Ve cómo se vería en producción
+
+
+═══════════════════════════════════════════════════════════
+
+🌐 PARA SUBIR A INTERNET:
+
+1. npm run build
+2. Sube carpeta "dist/" a:
+   - Vercel (https://vercel.com/) - RECOMENDADO
+   - Netlify (https://netlify.com/)
+   - Tu hosting personal
+
+
+═══════════════════════════════════════════════════════════
+
+✅ CHECKLIST FINAL:
+
+□ Node.js instalado
+□ Carpetas creadas
+□ Archivos copiados
+□ Archivos renombrados
+□ npm install ejecutado
+□ npm run dev ejecutado
+□ Navegador abierto en localhost:3000
+□ ¡Catálogo funcionando!
+
+
+═══════════════════════════════════════════════════════════
+
+🎯 TU PRÓXIMO PASO:
+
+👉 Abre el archivo: QUICK_START.md
+
+Tiene instrucciones super claras para los próximos 5 minutos.
+
+
+═══════════════════════════════════════════════════════════
+
+¿DUDAS?
+
+1. Lee QUICK_START.md
+2. Lee README.md
+3. Revisa ESTRUCTURA.txt
+4. Consulta: https://vitejs.dev/ o https://react.dev/
+
+
+═══════════════════════════════════════════════════════════
+
+© 2024 Sistema Maestro HyS
+Soluciones profesionales en Higiene y Seguridad Ocupacional
+
+¡Éxito! 🚀
