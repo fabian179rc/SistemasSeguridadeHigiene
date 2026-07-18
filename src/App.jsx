@@ -148,7 +148,7 @@ export default function CatalogoProductosProfesional() {
       <div
         style={{
           minHeight: "100vh",
-          background: "linear-gradient(135deg, #efe6d3 0%, #e9dfc7 100%)",
+          background: "linear-gradient(135deg, #0b0f13 0%, #10151a 100%)",
         }}
       >
         <div
@@ -157,27 +157,28 @@ export default function CatalogoProductosProfesional() {
           <button
             onClick={() => setSelectedProduct(null)}
             style={{
-              background: "#fbf6ea",
-              border: "1px solid #d6c7a4",
+              background: "#111820",
+              border: "1px solid #22303a",
               padding: "0.75rem 1.5rem",
               borderRadius: "6px",
               cursor: "pointer",
-              color: "#1e2b36",
+              color: "#e7ece9",
               marginBottom: "2rem",
               fontSize: "14px",
               fontWeight: 500,
+              fontFamily: "'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace",
               transition: "all 0.2s ease",
-              boxShadow: "0 1px 3px rgba(30,43,54,0.08)",
+              boxShadow: "0 1px 3px rgba(0,0,0,0.4)",
             }}
             onMouseOver={(e) => {
-              e.target.style.background = "#efe6d3";
-              e.target.style.borderColor = "#a5321f";
-              e.target.style.color = "#a5321f";
+              e.target.style.background = "#161f28";
+              e.target.style.borderColor = "#2fd6c4";
+              e.target.style.color = "#2fd6c4";
             }}
             onMouseOut={(e) => {
-              e.target.style.background = "#fbf6ea";
-              e.target.style.borderColor = "#d6c7a4";
-              e.target.style.color = "#1e2b36";
+              e.target.style.background = "#111820";
+              e.target.style.borderColor = "#22303a";
+              e.target.style.color = "#e7ece9";
             }}
           >
             ← Volver al catálogo
@@ -196,7 +197,7 @@ export default function CatalogoProductosProfesional() {
               <div
                 style={{
                   background: product.image
-                    ? "#e6dac0"
+                    ? "#161f28"
                     : product.mockupGradient,
                   borderRadius: "12px",
                   height: "560px",
@@ -292,8 +293,8 @@ export default function CatalogoProductosProfesional() {
                         left: "-58px",
                         width: "230px",
                         transform: "rotate(-45deg)",
-                        background: "#a5321f",
-                        color: "#f8f2e4",
+                        background: "#ffb020",
+                        color: "#0b0f13",
                         textAlign: "center",
                         fontSize: "16px",
                         fontWeight: 700,
@@ -314,16 +315,16 @@ export default function CatalogoProductosProfesional() {
                     position: "absolute",
                     top: "-10px",
                     right: "16px",
-                    background: "#fbf6ea",
-                    color: "#a5321f",
+                    background: "#111820",
+                    color: "#ffb020",
                     fontSize: "12px",
                     fontWeight: 700,
                     textTransform: "uppercase",
                     letterSpacing: "0.5px",
                     padding: "6px 14px",
                     borderRadius: "20px",
-                    border: "1px solid #a5321f",
-                    boxShadow: "0 4px 12px rgba(30,43,54,0.18)",
+                    border: "1px solid #2c3d49",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
                   }}
                 >
                   {product.category}
@@ -336,23 +337,26 @@ export default function CatalogoProductosProfesional() {
               <div style={{ marginBottom: "2rem" }}>
                 <p
                   style={{
-                    color: "#a5321f",
+                    color: "#ffb020",
                     fontSize: "13px",
                     textTransform: "uppercase",
                     letterSpacing: "1px",
                     margin: "0 0 0.5rem",
                     fontWeight: 600,
+                    fontFamily:
+                      "'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace",
                   }}
                 >
                   Producto Profesional
                 </p>
                 <h1
                   style={{
-                    fontFamily: "'Lora', Georgia, serif",
-                    fontSize: "32px",
+                    fontFamily:
+                      "'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace",
+                    fontSize: "28px",
                     fontWeight: 700,
                     margin: "0 0 1rem",
-                    color: "#1e2b36",
+                    color: "#e7ece9",
                     lineHeight: "1.3",
                     textTransform: "uppercase",
                   }}
@@ -361,7 +365,7 @@ export default function CatalogoProductosProfesional() {
                 </h1>
                 <p
                   style={{
-                    color: "#3d4f4c",
+                    color: "#8492a0",
                     lineHeight: "1.8",
                     marginBottom: "2rem",
                     fontSize: "16px",
@@ -375,13 +379,14 @@ export default function CatalogoProductosProfesional() {
                 style={{
                   marginBottom: "2rem",
                   padding: "1.5rem",
-                  background: "#f5ecda",
+                  background: "#111820",
+                  border: "1px solid #22303a",
                   borderRadius: "8px",
                 }}
               >
                 <h3
                   style={{
-                    color: "#a5321f",
+                    color: "#ffb020",
                     fontSize: "14px",
                     fontWeight: 600,
                     margin: "0 0 1rem",
@@ -393,7 +398,7 @@ export default function CatalogoProductosProfesional() {
                 <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
                   <li
                     style={{
-                      color: "#3d4f4c",
+                      color: "#8492a0",
                       fontSize: "14px",
                       margin: "0 0 0.75rem",
                       display: "flex",
@@ -401,12 +406,12 @@ export default function CatalogoProductosProfesional() {
                       gap: "8px",
                     }}
                   >
-                    <span style={{ color: "#a5321f", fontWeight: 700 }}>✓</span>{" "}
+                    <span style={{ color: "#2fd6c4", fontWeight: 700 }}>✓</span>{" "}
                     100+ páginas de contenido técnico
                   </li>
                   <li
                     style={{
-                      color: "#3d4f4c",
+                      color: "#8492a0",
                       fontSize: "14px",
                       margin: "0 0 0.75rem",
                       display: "flex",
@@ -414,12 +419,12 @@ export default function CatalogoProductosProfesional() {
                       gap: "8px",
                     }}
                   >
-                    <span style={{ color: "#a5321f", fontWeight: 700 }}>✓</span>{" "}
+                    <span style={{ color: "#2fd6c4", fontWeight: 700 }}>✓</span>{" "}
                     Plantillas y bonos operativos
                   </li>
                   <li
                     style={{
-                      color: "#3d4f4c",
+                      color: "#8492a0",
                       fontSize: "14px",
                       margin: "0 0 0.75rem",
                       display: "flex",
@@ -427,19 +432,19 @@ export default function CatalogoProductosProfesional() {
                       gap: "8px",
                     }}
                   >
-                    <span style={{ color: "#a5321f", fontWeight: 700 }}>✓</span>{" "}
+                    <span style={{ color: "#2fd6c4", fontWeight: 700 }}>✓</span>{" "}
                     Ejemplos prácticos y casos de estudio
                   </li>
                   <li
                     style={{
-                      color: "#3d4f4c",
+                      color: "#8492a0",
                       fontSize: "14px",
                       display: "flex",
                       alignItems: "center",
                       gap: "8px",
                     }}
                   >
-                    <span style={{ color: "#a5321f", fontWeight: 700 }}>✓</span>{" "}
+                    <span style={{ color: "#2fd6c4", fontWeight: 700 }}>✓</span>{" "}
                     Actualizaciones anuales incluidas
                   </li>
                 </ul>
@@ -452,29 +457,29 @@ export default function CatalogoProductosProfesional() {
                   rel="noopener noreferrer"
                   style={{
                     background:
-                      "linear-gradient(135deg, #a5321f 0%, #7d2517 100%)",
-                    color: "#f8f2e4",
+                      "linear-gradient(135deg, #2fd6c4 0%, #1fa896 100%)",
+                    color: "#0b0f13",
                     padding: "1rem",
                     borderRadius: "6px",
                     textAlign: "center",
                     textDecoration: "none",
                     fontSize: "16px",
-                    fontWeight: 600,
+                    fontWeight: 700,
                     cursor: "pointer",
                     transition: "all 0.3s ease",
                     border: "none",
                     display: "block",
-                    boxShadow: "0 4px 12px rgba(165, 50, 31, 0.3)",
+                    boxShadow: "0 4px 12px rgba(47, 214, 196, 0.3)",
                   }}
                   onMouseOver={(e) => {
                     e.target.style.transform = "translateY(-2px)";
                     e.target.style.boxShadow =
-                      "0 6px 16px rgba(165, 50, 31, 0.4)";
+                      "0 6px 16px rgba(47, 214, 196, 0.4)";
                   }}
                   onMouseOut={(e) => {
                     e.target.style.transform = "translateY(0)";
                     e.target.style.boxShadow =
-                      "0 4px 12px rgba(165, 50, 31, 0.3)";
+                      "0 4px 12px rgba(47, 214, 196, 0.3)";
                   }}
                 >
                   Acceder al Producto →
@@ -498,14 +503,14 @@ export default function CatalogoProductosProfesional() {
     <div
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(135deg, #efe6d3 0%, #e9dfc7 100%)",
+        background: "linear-gradient(135deg, #0b0f13 0%, #10151a 100%)",
       }}
     >
       <div
         style={{
-          background: "#efe6d3",
-          borderBottom: "1px solid #c9bd9c",
-          boxShadow: "0 1px 3px rgba(30,43,54,0.08)",
+          background: "#0b0f13",
+          borderBottom: "1px solid #22303a",
+          boxShadow: "0 1px 3px rgba(0,0,0,0.4)",
         }}
       >
         <div
@@ -518,14 +523,15 @@ export default function CatalogoProductosProfesional() {
         >
           <h1
             style={{
-              fontFamily: "'Lora', Georgia, serif",
-              fontSize: "46px",
+              fontFamily: "'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace",
+              fontSize: "38px",
               fontWeight: 700,
               margin: 0,
-              letterSpacing: "-0.5px",
+              letterSpacing: "0.02em",
               lineHeight: 1.15,
+              textTransform: "uppercase",
               background:
-                "linear-gradient(135deg, #1e2b36 0%, #5c8a94 55%, #a5321f 100%)",
+                "linear-gradient(135deg, #ffb020 0%, #2fd6c4 55%, #ffb020 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
@@ -535,16 +541,17 @@ export default function CatalogoProductosProfesional() {
           </h1>
           <p
             style={{
-              color: "#5b6a72",
+              color: "#8492a0",
               margin: "0.75rem auto 0",
               maxWidth: "560px",
               fontSize: "16px",
               fontWeight: 400,
               letterSpacing: "0.2px",
               lineHeight: 1.5,
+              fontFamily: "'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace",
             }}
           >
-            Soluciones profesionales e integradas para Higiene y Seguridad
+            // Soluciones profesionales e integradas para Higiene y Seguridad
             Ocupacional
           </p>
         </div>
@@ -567,7 +574,7 @@ export default function CatalogoProductosProfesional() {
               onClick={() => setSelectedProduct(product.id)}
               style={{
                 cursor: "pointer",
-                background: "#fbf6ea",
+                background: "#111820",
                 borderRadius: "12px",
                 overflow: "visible",
                 animation: `slideUp 0.5s ease-out ${product.id * 40}ms both`,
@@ -578,7 +585,7 @@ export default function CatalogoProductosProfesional() {
               <div
                 style={{
                   background: product.image
-                    ? "#e6dac0"
+                    ? "#161f28"
                     : product.mockupGradient,
                   height: "280px",
                   borderRadius: "12px 12px 0 0",
@@ -658,8 +665,8 @@ export default function CatalogoProductosProfesional() {
                         left: "-42px",
                         width: "170px",
                         transform: "rotate(-45deg)",
-                        background: "#a5321f",
-                        color: "#f8f2e4",
+                        background: "#ffb020",
+                        color: "#0b0f13",
                         textAlign: "center",
                         fontSize: "12px",
                         fontWeight: 700,
@@ -682,16 +689,16 @@ export default function CatalogoProductosProfesional() {
                     position: "absolute",
                     top: "-10px",
                     right: "16px",
-                    background: "#fbf6ea",
-                    color: "#a5321f",
+                    background: "#111820",
+                    color: "#ffb020",
                     fontSize: "11px",
                     fontWeight: 700,
                     textTransform: "uppercase",
                     letterSpacing: "0.5px",
                     padding: "5px 12px",
                     borderRadius: "20px",
-                    border: "1px solid #a5321f",
-                    boxShadow: "0 4px 12px rgba(30,43,54,0.18)",
+                    border: "1px solid #2c3d49",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
                     zIndex: 1,
                   }}
                 >
@@ -709,11 +716,12 @@ export default function CatalogoProductosProfesional() {
               >
                 <h3
                   style={{
-                    fontFamily: "'Lora', Georgia, serif",
-                    fontSize: "18px",
+                    fontFamily:
+                      "'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace",
+                    fontSize: "16px",
                     fontWeight: 700,
                     margin: "0 0 1rem",
-                    color: "#1e2b36",
+                    color: "#e7ece9",
                     lineHeight: "1.4",
                     textTransform: "uppercase",
                   }}
@@ -724,7 +732,7 @@ export default function CatalogoProductosProfesional() {
                 <p
                   style={{
                     fontSize: "14px",
-                    color: "#5b6a72",
+                    color: "#8492a0",
                     margin: "0 0 1.5rem",
                     lineHeight: "1.6",
                     flex: 1,
@@ -739,13 +747,13 @@ export default function CatalogoProductosProfesional() {
                     justifyContent: "space-between",
                     alignItems: "center",
                     paddingTop: "1rem",
-                    borderTop: "1px solid #d6c7a4",
+                    borderTop: "1px solid #22303a",
                   }}
                 >
                   <span
                     style={{
                       fontSize: "12px",
-                      color: "#7c8a90",
+                      color: "#5f6d78",
                       textTransform: "uppercase",
                       fontWeight: 600,
                     }}
@@ -756,7 +764,7 @@ export default function CatalogoProductosProfesional() {
                     style={{
                       fontSize: "18px",
                       transition: "transform 0.2s",
-                      color: "#a5321f",
+                      color: "#2fd6c4",
                     }}
                   >
                     →
@@ -770,8 +778,8 @@ export default function CatalogoProductosProfesional() {
 
       <div
         style={{
-          background: "#efe6d3",
-          borderTop: "1px solid #c9bd9c",
+          background: "#0b0f13",
+          borderTop: "1px solid #22303a",
           marginTop: "3rem",
         }}
       >
@@ -783,10 +791,10 @@ export default function CatalogoProductosProfesional() {
             textAlign: "center",
           }}
         >
-          <p style={{ color: "#1e2b36", margin: "0 0 0.5rem" }}>
+          <p style={{ color: "#8492a0", margin: "0 0 0.5rem" }}>
             © 2026 Sistema Maestro HyS. Todos los derechos reservados.
           </p>
-          <p style={{ color: "#5b6a72", fontSize: "14px", margin: 0 }}>
+          <p style={{ color: "#5f6d78", fontSize: "14px", margin: 0 }}>
             Soluciones profesionales en Higiene y Seguridad Ocupacional
           </p>
         </div>
@@ -810,17 +818,17 @@ export default function CatalogoProductosProfesional() {
 
         .product-card {
           position: relative;
-          border: 1px solid #d6c7a4;
-          box-shadow: 0 2px 8px rgba(30, 43, 54, 0.08);
+          border: 1px solid #22303a;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
           transform: translateY(0) scale(1);
           will-change: transform;
         }
 
         .product-card:hover {
           transform: translateY(-10px) scale(1.015);
-          border-color: #a5321f;
-          box-shadow: 0 24px 48px rgba(165, 50, 31, 0.22),
-            0 0 0 1px rgba(165, 50, 31, 0.12);
+          border-color: #2fd6c4;
+          box-shadow: 0 24px 48px rgba(47, 214, 196, 0.22),
+            0 0 0 1px rgba(47, 214, 196, 0.15);
           transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
             box-shadow 0.45s ease, border-color 0.45s ease;
         }
